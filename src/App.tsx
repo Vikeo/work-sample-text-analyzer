@@ -30,7 +30,7 @@ const App = () => {
         handleSubmit();
         e.preventDefault();
       }}>
-          <Container sx={{display: 'flex', flexDirection: 'column', gap:2, maxWidth: "300px", mx: 'auto', marginTop:4}}>
+          <Container sx={{display: 'flex', flexDirection: 'column', gap:2, mx: 'auto', marginTop:4}}>
             <TextareaAutosize ref={textAreaRef} minRows={3} placeholder="Enter text to be counted" />
             <Button type='submit' variant='contained' disabled={loading}>Submit</Button>
           </Container>
